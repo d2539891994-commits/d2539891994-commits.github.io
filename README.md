@@ -1,5 +1,7 @@
 # LaoDing — 个人网站
 
+公开网站：[https://d2539891994-commits.github.io/](https://d2539891994-commits.github.io/)
+
 本仓库为 GitHub Pages 静态发布入口。`index.html` 内嵌页面所需的字体、图片、CSS、JavaScript 与操作演示，案例采用 `#work/...` 地址。
 
 ## 开源代码与离线 HTML
