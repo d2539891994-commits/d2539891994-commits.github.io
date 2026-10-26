@@ -1,0 +1,62 @@
+{
+  "version": 2,
+  "mode": "native-source-video",
+  "source": "./chroma-media-latest.mp4",
+  "sourceName": "MiniMax_H3_7秒_原始生成.mp4",
+  "sourceSha256": "0ac3675f57b867eabf9ef9f1ad4bb961b8e1f2a446e412311ab250cf5886e35b",
+  "width": 768,
+  "height": 1344,
+  "fps": 24,
+  "frames": 175,
+  "duration": 7.291666666666667,
+  "looks": [
+    {
+      "id": "ivory",
+      "name": "象牙白西装",
+      "label": "IVORY",
+      "pose": "抱臂",
+      "start": 0,
+      "end": 26,
+      "poster": 0,
+      "color": "#CFC7B7",
+      "thumbnail": "./chroma-source-assets-ivory.jpg",
+      "note": "原片开场"
+    },
+    {
+      "id": "denim",
+      "name": "拼色蓝牛仔",
+      "label": "DENIM",
+      "pose": "双手插袋",
+      "start": 26,
+      "end": 84,
+      "poster": 48,
+      "color": "#A9BECC",
+      "thumbnail": "./chroma-source-assets-denim.jpg",
+      "note": "原片穿搭片段"
+    },
+    {
+      "id": "wine",
+      "name": "酒红长外套",
+      "label": "BURGUNDY",
+      "pose": "单手插袋",
+      "start": 84,
+      "end": 143,
+      "poster": 108,
+      "color": "#773842",
+      "thumbnail": "./chroma-source-assets-wine.jpg",
+      "note": "原片穿搭片段"
+    },
+    {
+      "id": "emerald",
+      "name": "墨绿丝绒",
+      "label": "EMERALD",
+      "pose": "自然垂手",
+      "start": 143,
+      "end": 175,
+      "poster": 169,
+      "color": "#225145",
+      "thumbnail": "./chroma-source-assets-emerald.jpg",
+      "note": "原片穿搭片段"
+    }
+  ]
+}
