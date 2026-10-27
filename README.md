@@ -2,7 +2,7 @@
 
 公开网站：[https://d2539891994-commits.github.io/](https://d2539891994-commits.github.io/)
 
-本仓库为 GitHub Pages 静态发布入口。`index.html` 内嵌页面所需的字体、图片、CSS、JavaScript 与操作演示，案例采用 `#work/...` 地址。
+本仓库为 GitHub Pages 静态发布入口。`index.html` 包含可直接显示的静态首屏与样式；`portfolio-*` 文件为独立脚本、图片、字体和演示。案例采用 `#work/...` 地址。
 
 ## 开源代码与离线 HTML
 
@@ -15,8 +15,12 @@
 
 ## 发布
 
-GitHub Pages 使用 `main` 分支的根目录。`.nojekyll` 用于直接发布已有静态文件。更新时替换 `index.html` 和两个下载压缩包即可。
+GitHub Pages 使用 `main` 分支的根目录。`.nojekyll` 用于直接发布已有静态文件。更新时上传完整在线发布目录中的 `index.html`、`portfolio-*` 资源以及最新源码压缩包；保留 `chroma-*` 编辑器资源和离线 HTML 下载包。
 
 ## 视频编辑器
 
 `chroma.html` 为编辑器入口，`chroma-*` 文件为它的脚本、样式、四套素材和 FFmpeg 组件。所有本地资源使用相对路径，无需第三方 CDN 或模型服务。第三方组件许可见 [开源组件](./chroma-licenses.html)。
+
+## 首页加载修复（2026-10-27）
+
+在线入口采用静态首屏与独立交互脚本，图片、字体按需加载。入口约 90 KB，脚本失败仍保留首页与作品链接。离线 HTML 下载包继续使用完整内嵌资源，适合发送文件后直接打开。构建脚本位于源码包 scripts/export-online.mjs。
